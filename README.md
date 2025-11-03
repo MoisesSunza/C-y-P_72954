@@ -20,7 +20,7 @@ Comando start-conection: Permite al usuario introducir la dirección IP y el pue
 
 - /change-userName [nuevo_nombre]: Cambia el apodo del usuario.
 
-- - Mejora: El servidor notifica el cambio de nombre a todos los usuarios en el chat.
+-   Mejora: El servidor notifica el cambio de nombre a todos los usuarios en el chat.
 
 - Mensaje Global por Defecto: Cualquier entrada del usuario que no sea un comando se trata y se distribuye automáticamente como un mensaje global a todos los clientes.
 
