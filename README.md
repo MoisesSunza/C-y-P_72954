@@ -16,12 +16,15 @@ Comando start-conection: Permite al usuario introducir la dirección IP y el pue
 
 - /send-msg [usuario] [mensaje]: Envía un mensaje privado a un usuario específico.
 
-- Mejora: El sistema notifica al remitente si el usuario objetivo no está conectado.
+  - Mejora: El sistema notifica al remitente si el usuario objetivo no está conectado.
 
 - /change-userName [nuevo_nombre]: Cambia el apodo del usuario.
 
--   Mejora: El servidor notifica el cambio de nombre a todos los usuarios en el chat.
+  - Mejora: El servidor notifica el cambio de nombre a todos los usuarios en el chat.
 
 - Mensaje Global por Defecto: Cualquier entrada del usuario que no sea un comando se trata y se distribuye automáticamente como un mensaje global a todos los clientes.
 
+  - Mejora: El sistema notifica al remitente cuántos usuarios recibieron el mensaje global.
+
 - /list-users: Muestra una lista de todos los nombres de usuario actualmente conectados al servidor.
+  - Comando nuevo agregado por mí.
