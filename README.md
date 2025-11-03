@@ -1,7 +1,9 @@
 # Practica 3 - Desarrolla un software con concurrencia para servidores locales.
 ### Concurrencia y Paralelismo
 ### Alumno: Moisés Abraham Sunza Vázquez
+
 <hr>
+
 ### Características Añadidas al Chat Concurrente
 
 #### Conexión Dinámica y Comandos
