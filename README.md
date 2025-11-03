@@ -13,16 +13,15 @@ Se mejoró la flexibilidad del cliente y se implementó una capa de lógica de c
 Comando start-conection: Permite al usuario introducir la dirección IP y el puerto deseado al inicio de la aplicación, haciendo la conexión dinámica.
 
 2. Comandos de Usuario (Implementados en ClientHandler)
-/send-msg [usuario] [mensaje]: Envía un mensaje privado a un usuario específico.
 
-Mejora: El sistema notifica al remitente si el usuario objetivo no está conectado.
+- /send-msg [usuario] [mensaje]: Envía un mensaje privado a un usuario específico.
 
-/change-userName [nuevo_nombre]: Cambia el apodo del usuario.
+- Mejora: El sistema notifica al remitente si el usuario objetivo no está conectado.
 
-Mejora: El servidor notifica el cambio de nombre a todos los usuarios en el chat.
+- /change-userName [nuevo_nombre]: Cambia el apodo del usuario.
 
-/list-users: Muestra una lista de todos los nombres de usuario actualmente conectados al servidor.
+- - Mejora: El servidor notifica el cambio de nombre a todos los usuarios en el chat.
 
-Mensaje Global por Defecto: Cualquier entrada del usuario que no sea un comando se trata y se distribuye automáticamente como un mensaje global a todos los clientes.
+- Mensaje Global por Defecto: Cualquier entrada del usuario que no sea un comando se trata y se distribuye automáticamente como un mensaje global a todos los clientes.
 
-Mejora: El sistema notifica al remitente cuántos usuarios recibieron el mensaje global.
+- /list-users: Muestra una lista de todos los nombres de usuario actualmente conectados al servidor.
